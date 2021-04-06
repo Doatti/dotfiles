@@ -1,0 +1,6 @@
+Host dirac
+  HostName dirac.phys.tut.fi
+  User kbtara
+Host fermi
+  HostName fermi.phys.tut.fi
+  User kbtara

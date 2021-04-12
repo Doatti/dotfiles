@@ -56,3 +56,7 @@
 
 ;; Load customization file
 (load custom-file)
+
+;; Set colors
+(set-background-color "black")
+(set-foreground-color "wheat")

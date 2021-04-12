@@ -1,12 +1,18 @@
+- defaults:
+    link:
+        create: true
+
 - clean: ['~']
 
 - link:
     ~/.bash_profile: bash_profile
     ~/.bashrc: bashrc
     ~/.bash_logout: bash_logout
-    ~/.ssh/config:
-        path: ssh/config
-        create: true
+    ~/.ssh/config: ssh/config
     ~/.zshrc: zshrc
+    ~/.emacs.d/init.el: emacs/init.el
+    ~/.emacs.d/lisp: emacs/lisp
 
+- shell:
+    - [touch ~/.emacs.d/custom-file.el, Create empty customization file for Emacs]
 

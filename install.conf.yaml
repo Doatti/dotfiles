@@ -12,6 +12,7 @@
     ~/.zshrc: zshrc
     ~/.emacs.d/init.el: emacs/init.el
     ~/.emacs.d/lisp: emacs/lisp
+    ~/.gitconfig: gitconfig
 
 - shell:
     - [touch ~/.emacs.d/custom-file.el, Create empty customization file for Emacs]

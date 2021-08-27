@@ -4,3 +4,9 @@ Host dirac
 Host fermi
   HostName fermi.phys.tut.fi
   User kbtara
+Host mahti
+  HostName mahti.csc.fi
+  User trajanie
+Host puhti
+  HostName puhti.csc.fi
+  User trajanie

@@ -10,3 +10,5 @@ Host mahti
 Host puhti
   HostName puhti.csc.fi
   User trajanie
+Include config.local
+

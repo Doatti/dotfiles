@@ -11,4 +11,5 @@ PATH=$PATH:$HOME/.local/bin:$HOME/bin
 
 export PATH
 
+# Include local customization
 . ~/.bash_profile.local

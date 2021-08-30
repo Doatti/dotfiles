@@ -12,6 +12,7 @@
     ~/.zshrc: zshrc
     ~/.emacs.d/init.el: emacs/init.el
     ~/.emacs.d/lisp: emacs/lisp
+    ~/.emacs.d/qe-modes: emacs/qe-modes
     ~/.gitconfig: gitconfig
 
 - shell:

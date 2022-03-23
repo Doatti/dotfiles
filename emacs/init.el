@@ -52,7 +52,10 @@
  auto-save-default nil
 
  ;; Allow commands to be run on minibuffers.
- enable-recursive-minibuffers t)
+ enable-recursive-minibuffers t
+
+ ;; Kill whole line inlcuding newline character
+ kill-whole-line t)
 
 ;; Load customization file
 (load custom-file)

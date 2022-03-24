@@ -116,6 +116,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# cd options
+shopt -s cdspell
+complete -d cd
+
 # cd aliases
 alias ..="cd .."
 alias ...="cd ../.."
@@ -129,3 +133,18 @@ alias ..........="cd ../../../../../../../../.."
 alias ...........="cd ../../../../../../../../../.."
 alias ............="cd ../../../../../../../../../../.."
 alias .............="cd ../../../../../../../../../../../.."
+
+# lf = latest file
+alias lln="ls -lhtr  --time-style long-iso | tac | cat -n | tac | sed -s 's/^\s*\([0-9]*\)\s*\(.*\)/[\1]  \2 [\1]/'g && pwd"
+function lf() {
+    if [ "x${1}" == "x" ]
+    then
+        n=1 
+    else
+        n="${1}"
+    fi  
+    ls -rt1 | tail -n ${n} | head -n 1
+}
+
+# Local bashrc
+. ~/.bashrc.local

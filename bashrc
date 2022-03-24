@@ -146,5 +146,12 @@ function lf() {
     ls -rt1 | tail -n ${n} | head -n 1
 }
 
+# Start ssh agent and add keys
+if [ -z "$SSH_AUTH_SOCK" ] ; then
+  eval `ssh-agent -s`
+  ssh-add
+fi
+
 # Local bashrc
+touch ~/.bashrc.local
 . ~/.bashrc.local

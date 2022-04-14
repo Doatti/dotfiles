@@ -1,3 +1,6 @@
+Host narvi
+  HostName narvi.tut.fi
+  User kbtara
 Host dirac
   HostName dirac.phys.tut.fi
   User kbtara

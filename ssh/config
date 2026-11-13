@@ -1,0 +1,11 @@
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_github_accountor # Check! it as to be whatever is your existing ssh key is
+  IdentitiesOnly yes
+
+Host github_accountor
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_github_accountor
+  IdentitiesOnly yes

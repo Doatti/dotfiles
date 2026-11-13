@@ -1,0 +1,25 @@
+[user]
+	email = tatu.rajaniemi@finago.com
+	name = Tatu Rajaniemi
+
+[include]
+	path = ~/.gitconfig_accountor
+[credential]
+	helper = 
+	helper = /usr/local/bin/git-credential-manager
+	credentialStore = cache
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[rerere]
+	enabled = true
+[alias]
+	co = checkout
+	st = status
+	mr = merge
+	pl = pull
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential

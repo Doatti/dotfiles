@@ -1,0 +1,10 @@
+{
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "workbench.colorTheme": "Dark+",
+    "editor.wordWrap": "on",
+    "editor.rulers": [
+        120
+    ],
+    "chat.viewSessions.orientation": "stacked"
+}
